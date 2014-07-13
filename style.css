@@ -1,0 +1,48 @@
+body,h1,h2,h3,ul,li{margin:0;padding: 0;}
+.lf{float: left}
+.rf{float: right;}
+.navList li a,.shopClass_item li a{text-decoration: none;color: #fff;}
+
+.topBar{margin: auto;margin-top: 9px;width: 1000px;height: 21px;font-size: 12px;}
+.search{margin-left: 117px;margin-top: 23px;}
+.welcome{margin-right: 20px;}
+.star{font-weight: bold;background:url(images/star.jpg) no-repeat;padding-left: 17px; }
+.topBar a{text-decoration: none;color: #666666;}
+.topBar a:hover{color: red;}
+/*logo*/
+.logoBar{margin: auto;width: 1000px;height: 95px;}
+.logo{margin-left: 37px;}
+.comWidth{background-color: #1d7ad9;}
+.searchBox{width: 360px;height: 35px;padding: 0;border: 0;}
+.searchBtn{width: 70px;height: 35px;padding: 0;border: 0;background-color: #ff8c00;font-family: 微软雅黑;font-size: 14px;color: #fff;}
+.searchBtn:focus{outline:0}
+.shopCar{margin-left: 31px;margin-top: 23px;}
+.shopNum{display: block;width: 56px;height: 35px;color:#fff;background:#ff8c00 url(images/tir.jpg) no-repeat 80%;line-height: 35px;text-indent: 18px;}
+/*nav*/
+.comWidth_nav{background: #1369c0;}
+.navBar{width: 1000px;height:35px;margin: auto;}
+.navList li{list-style: none;}
+.shopClass{width: 190px;color: #fff;line-height: 35px;text-indent: 37px;background: url(images/arrow.jpg) no-repeat 80%;}
+.shopClass h3{font-size: 16px;font-family:微软雅黑;font-weight:bold;}
+.navList li a{font-size: 14px;font-family:微软雅黑;display: block;width: 100px;height:35px;line-height: 35px; text-align: center;}
+.firstLi{background: #4593fd;}
+/*shopClass_show*/
+.content{margin: auto;width: 1000px;}
+.shopClass_item{width: 190px;height: 60px;background: #4593fd;}
+.shopClass_item li{float: left;list-style: none;}
+.banner{margin-bottom: 15px;}
+/*shopTit*/
+.shopTit{height: 44px;margin-bottom:15px;}
+.shopIcon{display: block; float:left;width: 44px;height: 44px; background: url(images/shopIcon.jpg);}
+.itemsTit{float: left;font-size: 24px;font-family: 微软雅黑;line-height: 44px;text-indent: 14px;}
+.more{display: block;float: right;height: 44px;font-family: 新宋体;font-size: 12px;margin-right:22px;text-decoration: none;color:black;margin-top:18px;}
+.more:hover{color: red;}
+/*items*/
+.banner_sm{height: 400px;}
+.items_top{width:170px;height: 240px;border:1px solid #e5e5e5;border-left:0;padding:38px 0 0 30px;}
+.name{font-family: 微软雅黑;font-size: 16px;font-weight: bold;}
+.price{font-family: 微软雅黑;font-size: 14px;color: #ff7300;text-indent:40px;}
+.items_bottom{width: 170px;height:100px;border-right:1px solid #e5e5e5;border-bottom:3px solid #ff7201;padding:17px 0 0 30px;}
+.item_text{display: block;float:right; width:100px;font-family: 新宋体;font-size: 12px;padding-top: 16px;}
+
+.commList{width: 1000px;margin: auto;margin-bottom: 15px;}
