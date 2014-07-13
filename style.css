@@ -49,4 +49,6 @@ body,h1,h2,h3,ul,li,dl{margin:0;padding: 0;}
 .money{float: left;}
 .commList{margin: auto;margin-bottom: 15px;float: left;}
 /*footer*/
-footer{clear: both; height: 224px;background-color: #d4d4d4;}
+footer{clear: both; height: 224px;background-color: #d4d4d4;text-align: center;padding-top: 60px;}
+
+dt{font: 14px/1 "Microsoft YaHei", "微软雅黑";}
