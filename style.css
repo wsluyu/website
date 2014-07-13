@@ -1,7 +1,8 @@
-body,h1,h2,h3,ul,li{margin:0;padding: 0;}
+body,h1,h2,h3,ul,li,dl{margin:0;padding: 0;}
 .lf{float: left}
 .rf{float: right;}
-.navList li a,.shopClass_item li a{text-decoration: none;color: #fff;}
+.navList li a,
+.shopClass_item a{text-decoration: none;color: #fff;}
 
 .topBar{margin: auto;margin-top: 9px;width: 1000px;height: 21px;font-size: 12px;}
 .search{margin-left: 117px;margin-top: 23px;}
@@ -13,7 +14,7 @@ body,h1,h2,h3,ul,li{margin:0;padding: 0;}
 .logoBar{margin: auto;width: 1000px;height: 95px;}
 .logo{margin-left: 37px;}
 .comWidth{background-color: #1d7ad9;}
-.searchBox{width: 360px;height: 35px;padding: 0;border: 0;}
+.searchBox{width: 360px;height: 35px;padding: 0;border: 0;font-family: 微软雅黑;}
 .searchBtn{width: 70px;height: 35px;padding: 0;border: 0;background-color: #ff8c00;font-family: 微软雅黑;font-size: 14px;color: #fff;}
 .searchBtn:focus{outline:0}
 .shopCar{margin-left: 31px;margin-top: 23px;}
@@ -28,21 +29,24 @@ body,h1,h2,h3,ul,li{margin:0;padding: 0;}
 .firstLi{background: #4593fd;}
 /*shopClass_show*/
 .content{margin: auto;width: 1000px;}
-.shopClass_item{width: 190px;height: 60px;background: #4593fd;}
-.shopClass_item li{float: left;list-style: none;}
+.shopClass_item{width: 190px;height: 63px;background: #4593fd;border-top: #5AA1FE solid 1px;border-bottom: #3487F2 solid 1px;}
 .banner{margin-bottom: 15px;}
+
 /*shopTit*/
 .shopTit{height: 44px;margin-bottom:15px;}
 .shopIcon{display: block; float:left;width: 44px;height: 44px; background: url(images/shopIcon.jpg);}
 .itemsTit{float: left;font-size: 24px;font-family: 微软雅黑;line-height: 44px;text-indent: 14px;}
-.more{display: block;float: right;height: 44px;font-family: 新宋体;font-size: 12px;margin-right:22px;text-decoration: none;color:black;margin-top:18px;}
+.more{display: block;float: right;font-family: 新宋体;font-size: 12px;margin-right:22px;text-decoration: none;color:black;margin-top:18px;}
 .more:hover{color: red;}
 /*items*/
-.banner_sm{height: 400px;}
+.banner_sm{display: block; height: 400px;}
 .items_top{width:170px;height: 240px;border:1px solid #e5e5e5;border-left:0;padding:38px 0 0 30px;}
 .name{font-family: 微软雅黑;font-size: 16px;font-weight: bold;}
 .price{font-family: 微软雅黑;font-size: 14px;color: #ff7300;text-indent:40px;}
 .items_bottom{width: 170px;height:100px;border-right:1px solid #e5e5e5;border-bottom:3px solid #ff7201;padding:17px 0 0 30px;}
-.item_text{display: block;float:right; width:100px;font-family: 新宋体;font-size: 12px;padding-top: 16px;}
-
-.commList{width: 1000px;margin: auto;margin-bottom: 15px;}
+.item_text{width:100px;font-family: 新宋体;font-size: 12px;padding-top: 16px;padding-left: 30px;}
+.shopImg_sm{float: left;}
+.money{float: left;}
+.commList{margin: auto;margin-bottom: 15px;float: left;}
+/*footer*/
+footer{clear: both; height: 224px;background-color: #d4d4d4;}
