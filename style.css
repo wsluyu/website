@@ -11,7 +11,7 @@ body,h1,h2,h3,ul,li,dl{margin:0;padding: 0;}
 .topBar a{text-decoration: none;color: #666666;}
 .topBar a:hover{color: red;}
 /*logo*/
-.logoBar{margin: auto;width: 1000px;height: 95px;}
+.logoBar{margin: auto;width: 1000px;height: 85px;}
 .logo{margin-left: 37px;}
 .comWidth{background-color: #1d7ad9;}
 .searchBox{width: 360px;height: 35px;padding: 0;border: 0;font-family: 微软雅黑;}
@@ -52,3 +52,6 @@ body,h1,h2,h3,ul,li,dl{margin:0;padding: 0;}
 footer{clear: both; height: 224px;background-color: #d4d4d4;text-align: center;padding-top: 60px;}
 
 dt{font: 14px/1 "Microsoft YaHei", "微软雅黑";}
+
+/*登陆页面*/
+.login{border: 1px solid #999;width: 458px;height: 342px;margin: auto;margin-top: 10px;}
